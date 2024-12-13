@@ -1,0 +1,202 @@
+/* Général */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3 {
+    color: #2c3e50; /* Couleur principale pour les titres */
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+}
+.img-circle {
+    width: 150px; /* Ajustez la taille selon vos besoins */
+    height: 150px; /* Pour garantir un cercle parfait, la hauteur et la largeur doivent être identiques */
+    border-radius: 50%;
+    object-fit: cover; /* Pour ajuster le contenu de l'image */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre pour un effet visuel */
+    margin: 20px auto; /* Centrer l'image dans son conteneur */
+    display: block;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre sous la navbar */
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-dark .nav-link {
+    font-size: 1rem;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #ff9f43; /* Couleur au survol */
+}
+
+/* Section : Accueil */
+#accueil {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Dégradé élégant */
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#accueil h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-in-out; /* Animation */
+}
+
+#accueil p {
+    font-size: 1.2rem;
+}
+
+/* Animation pour Accueil */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Section : CV */
+#cv {
+    padding: 60px 20px;
+    margin-bottom: 100px;
+}
+
+#cv ul {
+    list-style: none;
+    padding: 0;
+}
+
+#cv ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Section : Stages */
+#stages {
+    background-color: #f1f2f6;
+    padding: 60px 20px; 
+    margin-bottom: 120px;
+}
+
+.timeline {
+    border-left: 3px solid #6a11cb;
+    padding-left: 20px;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section : Travaux */
+#travaux {
+    padding: 60px 20px;
+    margin-bottom: 100px;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #6a11cb;
+}
+
+/* Section : Certifications */
+#certifications {
+    background-color: #f1f2f6;
+    padding: 60px 20px;
+}
+
+#certifications ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+#certifications ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Section : Contact */
+#contact {
+    padding: 60px 20px;
+    margin-bottom: 100px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact .form-label {
+    font-weight: bold;
+}
+
+#contact .btn {
+    background: #6a11cb;
+    border: none;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+#contact .btn:hover {
+    background: #2575fc;
+}
+
+/* Pied de page (optionnel) */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #2c3e50;
+    color: #fff;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #ff9f43;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}

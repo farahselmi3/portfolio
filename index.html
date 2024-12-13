@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Personnel</title>
+    <!-- Lien vers Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Lien vers votre fichier CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mon Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cv">CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#stages">Stages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#travaux">Travaux</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Accueil -->
+    <section id="accueil" class="text-center p-5 bg-light">
+        <img src="c:\Users\mahmo\Downloads\462573073_1579895026250704_2051474300366810565_n (1).jpg" alt="Profil" class="img-circle">
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Je suis  farah selmi , étudiant en informatique, et voici mon portfolio personnel.</p>
+    </section>
+
+    <!-- CV -->
+    <section id="cv" class="container py-5">
+        <h2 class="text-center">Mon CV</h2>
+        <p>Voici mes informations personnelles, mes compétences et mon expérience professionnelle :</p>
+        <ul>
+            <li><strong>Nom :</strong> Farah Selmi</li>
+            <li><strong>Compétences :</strong> HTML, CSS, JavaScript, Python, etc.</li>
+            <li><strong>Expérience :</strong> Stage en développement web, projet académique, etc.</li>
+        </ul>
+    </section>
+
+    <!-- Stages -->
+    <section id="stages" class="container py-5 bg-light">
+        <h2 class="text-center">Mes Stages</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h4>Stage 1</h4>
+                <p>stage en CNAM ,
+                    responsable de projet informatique de durée 2 mois de 2024
+                </p>
+            </div>
+            <div class="timeline-item">
+                <h4>Stage 2</h4>
+                <p>stage en boite devellopement de durée 1 mois de 2023</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travaux réalisés -->
+    <section id="travaux" class="container py-5">
+        <h2 class="text-center">Mes Travaux Réalisés</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="C:\Users\mahmo\OneDrive\Pictures\Screenshots\Capture d'écran 2024-12-12 135446.png" class="card-img-top" alt="Projet 1">
+                    <div class="card-body">
+                        <h5 class="card-title">optiprice </h5>
+                        <p class="card-text">magasin virtuel permet à l'utilisateur de 
+                            scanner un code à barre de produit pour connaitre tous les informations de produit
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="C:\Users\mahmo\OneDrive\Pictures\Screenshots\Capture d'écran 2024-12-12 142524.png" class="card-img-top" alt="Projet 2">
+                    <div class="card-body">
+                        <h5 class="card-title">carte médicale</h5>
+                        <p class="card-text">Développement d'une plateforme web de gestion médicale : création d'un site permettant aux patients de prendre des rendez-vous, aux médecins de consulter les archives médicales, et aux secrétaires de gérer les dossiers des patients. .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="container py-5 bg-light">
+        <h2 class="text-center">Mes Certifications</h2>
+        <ul>
+            <li>Certification 1 : certaficat en leader ship , université de kairouan , 27 novembre 2023.</li>
+            <li>Certification 2 : certaficat en communication,ISMAIKairouan, 2022.</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container py-5">
+        <h2 class="text-center">Contact</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Lien vers Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
